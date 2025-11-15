@@ -1,0 +1,56 @@
+
+#clockContainer {
+    margin: auto;
+    padding: 12px;
+    display: flex;
+    /* make container flex */
+    align-items: center;
+    /* vertical center */
+    justify-content: center;
+    /* horizontal center */
+    top: 70px;
+    position: relative;
+}
+
+#clockContainer img {
+    width: 40%;
+    height: 40%;
+
+}
+
+#minutes,
+#hour,
+#seconds {
+    position: absolute;
+    background: #4d4348;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 9px;
+    height: 21%;
+    display: flex;
+    top: 150px;
+    border-radius: 4px;
+    left: 49.3%;
+    /* display: none; */
+}
+
+#minutes {
+    width: 7px;
+    height: 26%;
+    display: flex;
+    top: 127px;
+    border-radius: 4px;
+    left: 49.3%;
+    /* display: none; */
+}
+
+#seconds {
+    width: 5px;
+    height: 27%;
+    display: flex;
+    top: 113px;
+    border-radius: 4px;
+    left: 49.3%;
+}
